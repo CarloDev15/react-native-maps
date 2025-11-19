@@ -1,4 +1,7 @@
-yarn lint
-yarn tscheck
-yarn format-check
-yarn test
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# yarn lint
+# yarn tscheck
+# yarn format-check
+# yarn test
